@@ -1,0 +1,10 @@
+# this prints the set of data points
+PRINT cities;
+
+# this prints the subset
+PRINT cities:
+amsterdam || brussels;
+
+# this prints the subset of data points filtered based on given criteria
+PRINT cities:
+amsterdam || (city -> city.lon > 50);
