@@ -1,0 +1,5 @@
+# find the shortest path within set from amsterdam to helsnki visiting all points in the set
+ROUTE cities: amsterdam -> helsinki;
+
+# find the shortest path within set from helsinki to helsinki (closed route) excluding amsterdam
+ROUTE cities: helsinki -> helsinki | !amsterdam;
