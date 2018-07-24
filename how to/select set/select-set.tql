@@ -1,10 +1,10 @@
 # this prints the set of data points
-PRINT cities;
+SELECT cities;
 
 # this prints the subset
-PRINT cities:
+SELECT cities:
 amsterdam || brussels;
 
 # this prints the subset of data points filtered based on given criteria
-PRINT cities:
+SELECT cities:
 amsterdam || (city -> city.lon > 50);

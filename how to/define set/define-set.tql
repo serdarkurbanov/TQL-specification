@@ -4,3 +4,10 @@ amsterdam({lat: 52.378, lon: 4.9, layover: 30, description: 'the capital of the 
 stockholm({lat: 59.32944, lon: 18.06861, layover: 60, description: 'the capital of Sweden'}),
 brussels({lat: 50.8467, lon: 4.3547, layover: 45, description: 'the capital of Belgium'}),
 helsinki({lat: 60.17333, lon: 24.94861, layover: 120, description: 'the capital of Finland'});
+
+# this defines the set without identifiers
+SET cities:
+{lat: 52.378, lon: 4.9, layover: 30, name: 'amsterdam', description: 'the capital of the Netherlands'},
+{lat: 59.32944, lon: 18.06861, layover: 60, name: 'stockholm', description: 'the capital of Sweden'},
+{lat: 50.8467, lon: 4.3547, layover: 45, name: 'brussels', description: 'the capital of Belgium'},
+{lat: 60.17333, lon: 24.94861, layover: 120, name: 'helsinki', description: 'the capital of Finland'};
